@@ -1,1 +1,2 @@
-# Python_Programs
+1.Student Marks Management and Grade Calculation System.
+   ***This project is designed to develop a Student Marks Management System that accepts student details, subject names, and marks as input. The system processes the entered data to calculate the total marks, percentage, and grade of each student based on predefined grading criteria. It also determines the pass or fail status of students and presents the results in a structured and readable format.***
