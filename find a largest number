@@ -1,0 +1,14 @@
+list=[10,5,2,6,5,8,9]
+def largest_number(list):
+    return max(list)
+print(largest_number(list))
+
+
+list1=[10,5,2,6,5,8,9]
+def largest_number(list1):
+    return max(list)
+number=largest_number(list1)
+print(number)
+
+
+
