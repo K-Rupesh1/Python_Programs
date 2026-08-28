@@ -1,10 +1,10 @@
-'''list=['ru','pe','sh']
+list=['ru','pe','sh']
 list.append('ri')
 list.insert(1,'hi')
-print(list)'''
+print(list)
 
 
-'''my_tuple=(1,2,3,4,5)
+my_tuple=(1,2,3,4,5)
 print(type(my_tuple))
 c=my_tuple[2:5]
 print(c)
@@ -14,9 +14,9 @@ print(b)
 print(my_tuple.count(2))
 
 list=list(my_tuple)
-print(type(list))'''
+print(type(list))
 
-'''serial_number=[1,2,3]
+serial_number=[1,2,3]
 city=['hindupur','anantapur','hyderabad']
 short_form=['hdp','atp','hyd']
 
@@ -24,22 +24,22 @@ data=zip(serial_number,city,short_form)
 print(type(data))
 
 data_1=list(data)
-print(data_1)'''
+print(data_1)
 
-'''dict={'hi':'rupesh','hello':'umesh'}
+dict={'hi':'rupesh','hello':'umesh'}
 a=dict['hi']
 print(a)
 b=dict.keys()
 print(b)
 c=dict.values()
-print(c)'''
+print(c)
 
-'''x=31
+x=31
 if x>=30:
     print(f"{x} is greather than 30")
-print(x==31)'''
+print(x==31)
 
-'''list=[10,20,30,40,50,60]
+list=[10,20,30,40,50,60]
 if 10 in list:
     print(list[1])
 if  enumerate(list):
@@ -73,13 +73,13 @@ for i in range(0,10,1):
 
 for i in range(0,10,1):
     sum=sum+i
-    print(sum)'''
-'''squared_of_even_numbers=[]
+    print(sum)
+squared_of_even_numbers=[]
 for number in range(0,20,1):
     if number%2==0:
         squared_of_even_numbers=number**2
-        print(squared_of_even_numbers)'''
-'''character="i am rupesh"
+        print(squared_of_even_numbers)
+character="i am rupesh"
 for variable in character:
     print(f"the charter is :{variable}")
     #a=character["am"] it throughs an error because the str is print index only when we use the dictionary
@@ -94,13 +94,13 @@ for variable in character:
 list=['r','u','p','e','s','h']
 for variable in list:
     if variable not in ['s','h']:
-        print(variable)'''
+        print(variable)
 
 
 
 
 
-'''import numpy as np
+import numpy as np
 import random
 import pandas as pd
 a=np.array([1,2,3,4])
@@ -153,9 +153,9 @@ print(i)
 print()
 j=np.random.normal(1,10,size=(3,5))
 print(j)
-print()'''
+print()
 
-'''number_series=pd.Series([1,2,3])
+number_series=pd.Series([1,2,3])
 print(number_series)
 print()
 number_series1=pd.Series([4,5,6,7],index=["a","b","c","d"],name='number')
@@ -191,12 +191,12 @@ print(df_1)
 series_dict={'first_series':pd.Series([10,20,30,40]),
              'second_series':pd.Series([50,60,70,80])}
 df_2=pd.DataFrame(series_dict)
-print(df_2)'''
+print(df_2)
 
 
 
 
-'''numbers=np.random.randint(1,100,(10,5))
+numbers=np.random.randint(1,100,(10,5))
 df_3=pd.DataFrame(numbers,columns=['a','b','c','d','e'])
 print(df_3.index)
 print(df_3)
@@ -221,7 +221,7 @@ numbers=np.random.randint(1,100,(4,5))
 print(numbers)
 print()
 df=pd.DataFrame(numbers,columns=["a","b","c","d","e"])
-print(df)'''
+print(df)
 
 
 filename="javastring"
